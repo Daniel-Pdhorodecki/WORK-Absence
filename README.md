@@ -60,37 +60,6 @@ Validações rodam no servidor (não apenas na interface).
 
 > No protótipo a sessão é implementada diretamente com JWT (mais simples de rodar); a estrutura permite migrar para Auth.js depois.
 
-## Rodando localmente
-
-Requisitos: **Node.js 20+** e npm.
-
-```bash
-npm install
-npx prisma db push
-npx prisma db seed
-npm run dev
-```
-
-Abra <http://localhost:3000>.
-
-Se quiser recriar o banco do zero:
-
-```bash
-npm run db:reset
-```
-
-### Contas de demonstração
-
-| Perfil | E-mail | Senha |
-| --- | --- | --- |
-| RH (responsável) | `rh@demo.com` | `123456` |
-| Funcionário | `funcionario@demo.com` | `123456` |
-| Funcionário | `marina@demo.com` | `123456` |
-
-Códigos da empresa de demonstração:
-
-- Funcionário: `ACME2026`
-- RH: `RHACME26`
 
 ## Estrutura do projeto
 
